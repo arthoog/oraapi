@@ -1,0 +1,9 @@
+met:
+
+start container met een terminal
+docker exec -it fastapi /bin/bash
+cd mijn2
+
+uvicorn app.main:app --host 0.0.0.0 --port 3010 --reload
+ipv uvicorn invoiceservice.app.main:app --host 0.0.0.0 --port 3010 --reload
+ is de bedoeling
